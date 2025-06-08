@@ -1,3 +1,4 @@
+
 def perform_operation(num1, num2, operation):
     if operation == 'add':
         return num1 + num2
@@ -7,7 +8,7 @@ def perform_operation(num1, num2, operation):
         return num1 * num2
     elif operation == 'divide':
         if num2 == 0:
-            return "Error: Division by zero"
+            return "Error: Cannot divide by zero"
         else:
             return num1 / num2
     else:
